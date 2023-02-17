@@ -6,7 +6,8 @@ from flask import (
     Flask, 
     render_template,
 )
-from flask.app import Flask as FlaskApp
+from flask.app import \
+    Flask as FlaskApp
 
 # Local
 from models.book import *
