@@ -1,0 +1,133 @@
+body
+{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.shelf 
+{
+    width: 700px;
+    height: 700px;
+    border: 5px rgb(129, 84, 46) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.shelf1
+{
+    width: 100%;
+    height: 25%;
+    border: 5px rgb(129, 84, 46) solid;
+    box-sizing: border-box;
+    background-color: rgba(129, 83, 46, 0.397);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book
+{
+    align-self: center;
+    box-sizing: border-box;
+    width: 18%;
+    height: 98%;
+    border: 5px rgb(136, 34, 34) solid;
+    background-color: rgba(136, 34, 34, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name
+{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.genre
+{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.desc
+{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    font-size: 9px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+a
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+}
+
+.book1
+{
+    box-sizing: border-box;
+    width: 122px;
+    height: 159px;
+    border: 5px rgb(136, 34, 34) solid;
+    background-color: rgba(136, 34, 34, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.site
+{
+    width: 700px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.na
+{
+    width: 16.9%;
+    height: 100%;
+    border: 5px rgb(129, 84, 46) solid;
+    background-color: rgba(129, 83, 46, 0.397);
+    text-align: center;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.shelf2
+{
+    width: 700px;
+    height: 700px;
+    border: 5px rgb(129, 84, 46) solid;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
